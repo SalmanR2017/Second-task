@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(213, 221, 221);
+}
+p {
+  color: rgb(133, 130, 130);
+  font-size: 12px;
+  font-weight: 600;
+}
+.logo {
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+}
+.side-bar {
+  height: 70rem;
+  background-color: rgb(242, 246, 242);
+  box-sizing: 25px;
+  box-shadow: grey;
+}
+.overview,
+.campaign,
+.product,
+.settings {
+  width: 100%;
+  height: 35px;
+  margin: 5px;
+  padding-top: 5px;
+  padding-left: 8px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 3px;
+}
+.overview a,
+.campaign a,
+.product a,
+.settings a {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px;
+  color: black;
+}
+
+.s-icon {
+  color: grey;
+  font-size: 22px;
+  padding-top: 5px;
+}
+
+.s-icond {
+  margin-left: 55%;
+  color: gray;
+}
+.underline {
+  width: 90%;
+  height: 1px;
+  margin-top: 300px;
+  background-color: rgb(223, 213, 213);
+}
+.technical-contact {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.technical-contact a {
+  margin: 10px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.campaign-card {
+  width: 90%;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.campaign-card p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.campaign-card button {
+  width: 90%;
+  color: white;
+  background-color: rgb(111, 189, 111);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(242, 246, 242);
+}
+.bell {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  color: gray;
+}
+.wrap {
+  margin-top: 10px;
+  background-color: rgb(242, 246, 242);
+  border-radius: 10px;
+}
+.wrap h2 {
+  padding: 25px;
+  font-weight: 800;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(231, 219, 219);
+  margin: 15px 0;
+  padding: 15px 15px 0;
+  border-radius: 10px;
+}
+
+.check-add {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0;
+}
+.card-wrap {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 411) {
+  .card-wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+  }
+}
+
+.card {
+  margin: 6px;
+  width: 300px;
+  border-radius: 10px;
+  height: 250px;
+}
+img {
+  width: 100%;
+  height: 50%;
+  size: contain;
+  border-radius: 10px;
+}
+.card h4 {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.card p {
+  font-size: 5px;
+  font-weight: 600;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+.cost p,
+.profit p {
+  font-size: 12px;
+}
+.choose-product-card,
+.select-product-card {
+  margin: none;
+}
+
+.last-card {
+  margin: 6px;
+  width: 250px;
+  border-radius: 10px;
+}
+.last-card img {
+  width: 100%;
+  height: 100%;
+}
+.active {
+  background-color: rgb(211, 235, 211);
+}
+.active .s-icon {
+  color: green;
+}
+.add-product {
+  display: flex;
+  justify-content: space-around;
+}
+.choose-product,
+.select-product {
+  background-color: rgb(248, 250, 251);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: black;
+}
+.select-product {
+  padding-top: 50px;
+  height: 90%;
+}
+.select-product-img {
+  width: 300px;
+  margin: 15px auto;
+}
+.instruct {
+  padding-left: 20px;
+  width: 300px;
+  margin: 15px auto;
+}
+.instruct p {
+  font-size: 15px;
+}
+.product-icon {
+  width: 300px;
+  margin-left: 100px;
+  padding: 50px;
+}
+.plus {
+  margin-left: 15px;
+  font-size: 40px;
+  color: rgb(14, 207, 14);
+}
+.product-icon p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(14, 207, 14);
+}
